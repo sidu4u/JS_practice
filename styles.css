@@ -1,0 +1,41 @@
+.notifier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    border-right: 2px solid black;
+    height: 50%;
+}
+
+.logs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    border-top: 2px solid blueviolet;
+    border-right: 2px solid blueviolet;
+    color: maroon;
+    height: 50%;
+}
+
+.heading{
+   margin: 0px;
+}
+
+.lhp{
+    width: 50%;
+}
+
+.rhp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    align-items: center;
+}
+
+.output{
+    display: flex;
+    height: 500px;
+    border: 2px solid black;
+}

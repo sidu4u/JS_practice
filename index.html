@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <input type="text" placeholder="time interval" onchange="updateTimeInterval(event)"/>
+    <button onclick="start()">Start</button>
+    <div class="output">
+        <div class="lhp">    
+            <div class="notifier"><h3 class="heading">Notification</h3></div>
+            <div class="logs"><h3 class="heading">Logs</h3></div>
+        </div>
+        <div class="rhp">
+            <h3 class="heading">Output</h3>
+        </div>       
+    </div>
+    <script src="worker.js"></script>
+    <script src="src.js"></script>
+</body>
